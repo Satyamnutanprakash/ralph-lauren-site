@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+li, a {
+  font-weight: 700;
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+}
+
+i {
+  margin: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5%;
+}
+
+.header {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header_logo {
+  width: 360px;
+}
+
+a.header__link {
+  color: #041e3a;
+  font-family: Founders Grotesk text Regular,Helvetica,Arial,sans-serif;
+  font-size: 24px;
+  letter-spacing: 6px;
+  font-family: 'Geologica', sans-serif;
+  font-family: 'Playfair', serif;
+}
+
+nav.navigation {
+  display: inline;
+}
+
+//iphone
+@media only screen and (max-width: 1024px) {
+  nav.navigation {
+  display: none;
+  }
+}
+
+.navigation__store {
+  list-style: none;
+}
+
+.navigation__store li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.navigation__store li a{
+  padding: 0px 10px;
+  transition: all 0.3s ease 0s;
+}
+
+.header__customer {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.fa-solid, .fas {
+  font-weight: 900;
+  font-size: 16px;
+}
+
+
+
+

@@ -1,0 +1,146 @@
+
+.footer-content{
+	max-width: 1170px;
+	margin:auto;
+  margin-top: 10%;
+}
+
+.footer-content__row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul {
+	list-style: none;
+  padding-left: 0;
+}
+
+.footer{
+	background-color: #ffffff;
+  padding: 20px 0;
+}
+
+.footer-content__column{
+  width: 22%;
+  padding: 0 15px;
+}
+
+h4.footer-content__title {
+  font-family: 'Geologica', sans-serif;
+  font-family: 'Playfair', serif;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+	color: #041e3a;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 700;
+	position: relative;
+}
+
+li.footer-content__item {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.footer-content__list ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-content__list ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 100;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-content__subscription-info {
+  margin-top: 24px;
+}
+
+.footer-content__subscription-info p {
+  font-family: 'Geologica', sans-serif;
+  font-family: 'Playfair', serif;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+	color: #041e3a;
+  font-weight: 700;
+  padding: 0px;
+}
+
+.footer-content__subscription-form-registration {
+  margin-top: 20px;
+}
+
+.footer-content__form-group {
+  margin-bottom: 20px;
+}
+
+.footer-content__form-group label {
+  font-weight: bold;
+}
+
+.footer-content__form-group input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+}
+
+.footer-content__form-group button {
+  padding: 10px 20px;
+  background-color: #041e3a;
+  color: #fff;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.footer-content__form-group button:hover {
+  color: #041e3a;
+  background-color: white;
+  border-style: solid;
+  border-color: #041e3a;
+}
+
+.footer-social{
+  position: relative;
+  margin-top: 40px;
+  margin-left: 43%;
+}
+.footer-social__links {
+  display: inline-block;
+  align-items: center;
+}
+
+i.footer-social__links {
+  margin: 20px;
+}
+.fa-brands, .fab {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.footer-copyright {
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer-copyright p {
+  font-family: 'Geologica', sans-serif;
+  font-family: 'Playfair', serif;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+	color: black;
+}
+
+//iphone
+@media (min-width:  375px) and (max-width: 428px) {
+  .footer-content__column {
+    width: 70%;
+  }
+}

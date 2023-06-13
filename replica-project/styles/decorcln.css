@@ -1,0 +1,59 @@
+
+.decor-collection {
+  margin-top: 30px;
+  position: relative;
+}
+
+.decor-collection video {
+  width: 100vw;
+  height: auto;
+  position: relative;
+}
+
+.decor-collection__wrapper {
+  position: absolute;
+  top: 60%;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  text-align: center;
+}
+
+.decor-collection__title {
+  display: inline-block;
+  font-family: "LeJeuneDeck-Regular", Times, serif;
+  font-size: 2.125em;
+  margin-bottom: 18px;
+  font-size: 3rem;
+  margin-bottom: 12px;
+  color: white;
+}
+
+p.decor-collection__description  {
+  font-family: "LeJeuneDeck-Regular", Times, serif;
+  font-size: 1.225em;
+  font-weight:500;
+  margin-bottom: 18px;
+  color: white;
+}
+
+a.decor-collection__link {
+  text-decoration: underline;
+  color: white;
+  margin: 10px;
+  font-size: 12px;
+  word-spacing: 4px;
+}
+
+a.decor-collection__link--home {
+  text-decoration: underline;
+  color: white;
+  margin: 10px;
+  font-size: 12px;
+  word-spacing: 4px;
+}
+
+//iphone
+@media (min-width:  375px) and (max-width: 428px) {
+
+}

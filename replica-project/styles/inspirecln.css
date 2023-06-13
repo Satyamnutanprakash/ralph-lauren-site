@@ -1,0 +1,46 @@
+
+.inspire-collection {
+  margin-top: 30px;
+  position: relative;
+  width: 100%;
+}
+
+.inspire-collection video {
+  width: 60%;
+  height: 180%;
+}
+
+.inspire-collection__wrapper {
+  position: absolute;
+  top: 40%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  color: white;
+}
+
+.inspire-collection__title h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #2A3492;
+}
+
+.inspire-collection__subtitle {
+  font-family: "Founders Grotesk text Regular", Helvetica, Arial, sans-serif;
+  font-size: 1.25em;
+  color: #2A3492;
+  text-transform: uppercase;
+  letter-spacing: 0.375em;
+  margin-top: 0.8em;
+}
+
+p.inspire-collection__description  {
+  font-family: "LeJeuneDeck-Regular", Times, serif;
+  font-size: 1.125em;
+  color: black;
+}
+
+.inspire-collection__link a {
+  color: #2A3492;
+}

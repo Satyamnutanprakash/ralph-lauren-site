@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+li, a {
+  font-weight: 700;
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+}
+
+i {
+  margin: 10px;
+}
+.logo {
+  width: 360px;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5%;
+}
+
+.store {
+  list-style: none;
+}
+
+.store li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.store li a{
+  padding: 0px 10px;
+  transition: all 0.3s ease 0s;
+}
+
+
+.store-title{
+  font-faamily: Founders Grotesk text Regular,Helvetica,Arial,sans-serif;
+}
+.collections {
+  padding: 20px;
+}
+
+.collections-section1 {
+  position: relative;
+  width: 100%;
+}
+
+.collections-section1 video {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.collections-section1-text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  color: white;
+}
+
+.collections-section1-text-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.collections-section1-text-overlay a {
+  color: white;
+  font-family: "LeJeuneDeck-Regular", Times, serif;
+  font-size: 0.825em;
+}
+
+footer {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  margin: 5px;
+  padding: 0;
+  display: inline-block; /* Display the navigation as inline-block */
+}
+
+.footer ul li {
+  display: inline;
+  margin: 10px;
+  margin-right: 10px;
+}
+
+.footer ul li a {
+  color: #000000;
+  text-decoration: none;
+}

@@ -1,0 +1,40 @@
+.golf-collection {
+  margin-top: 20px;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.golf-collection__menpolo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  color: white;
+}
+.golf-collection__menpolo-title{
+  text-align: center;
+  font-size: 26px;
+}
+.golf-collection__menpolo-title-m{
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.golf-collection__menpolo-description p{
+  font-family: 'Geologica', sans-serif;
+}
+
+.golf-collection__menpolo-link {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+a.golf-collection__menpolo-link {
+  text-decoration: underline;
+  margin-top: 20px;
+}

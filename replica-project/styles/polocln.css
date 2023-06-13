@@ -1,0 +1,129 @@
+
+.polo-collection {
+  position: relative;
+}
+
+.polo-collection img {
+  top: 0;
+  left: 0;
+}
+
+.polo-collection__image-d {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.polo-collection__image-m {
+  display: none;
+}
+
+@media (min-width: 375px) and (max-width: 428px) {
+  .polo-collection__image-d {
+    display: none;
+  }
+
+  .polo-collection__image-m {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.polo-collection__wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 85%;
+  margin: auto;
+  position: absolute;
+  z-index: 1;
+  top: 10%;
+  left: 0;
+  right: 0;
+}
+
+.polo-collection__shop {
+  width: 45%;
+}
+
+.polo-collection__shop-vshop img {
+  width: 552.533px;
+  height: 676.883px;
+}
+
+//iphone
+@media (min-width: 375px) and (max-width: 428px) {
+//  .polo-collection__shop-vshop img {
+//    width: 341.55px;
+//    height: 411.433px;
+//  }
+
+  .polo-collection__wrapper {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 85%;
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 0;
+    right: 0;
+  }
+
+}
+
+.polo-collection__shop-vshop p {
+  font-family: 'Geologica', sans-serif;
+  font-family: 'Playfair', serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
+  font-style: Normal;
+  font-weight: 700;
+  font-size: 1.125rem;
+  letter-spacing: .05625rem;
+  color: #041e3a;
+}
+
+a.polo-collection__shop-link {
+  text-decoration: underline;
+  color: #041e3a;
+  font-family: 'Geologica', sans-serif;
+  font-family: 'Playfair', serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
+  word-spacing: 4px;
+}
+
+//iphone
+@media (min-width: 375px) and (max-width: 428px) {
+  .polo-collection__shop-image {
+    display: block;
+    width: 50%;
+    height: 50%;
+  }
+}
+
+.polo-collection__shop-pshop p {
+  font-family: Founders Grotesk text Regular,Helvetica,Arial,sans-serif;
+  font-style: Normal;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.125rem;
+  letter-spacing: .05625rem;
+  color: #041e3a;
+}
+.polo-collection__shop-pshop img {
+  width: 449.2px;
+  height: 624px;
+}
+
+//iphone
+@media (min-width:  375px) and (max-width: 428px) {
+
+}
