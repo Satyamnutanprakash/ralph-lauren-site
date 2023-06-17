@@ -62,7 +62,7 @@ a.hero-banner__link {
   word-spacing: 4px;
 }
 
-@media (min-width: 375px) and (max-width: 428px) {
+@media (max-width: 428px) {
   .hero-banner__text-overlay {
     position: absolute;
     top: 70%;
